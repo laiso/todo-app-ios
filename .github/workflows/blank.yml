@@ -15,4 +15,4 @@ jobs:
       run: xcodebuild -version
     - name: Test
       #run: xcodebuild -sdk iphonesimulator -configuration Debug build 
-      run: xcodebuild test -sdk iphonesimulator -configuration Debug -target todoTests -scheme todoTests -destination 'platform=iOS Simulator,id=dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator'
+      run: xcodebuild test -sdk iphonesimulator -configuration Debug -target todoTests -scheme todoTests -destination 'platform=iOS Simulator,OS=13.0,name=iPhone 11'
